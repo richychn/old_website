@@ -1,7 +1,6 @@
 import React from 'react';
 
-import Profile from './Profile';
-import Content from './Content';
+import Main from './Main';
 
 const App = () => {
     if (window.innerWidth < 800) {
@@ -10,10 +9,7 @@ const App = () => {
         )
     } else {
         return (
-            <div className="container">
-                <Profile />
-                <Content />
-            </div>
+            <Main />
         )
     }
 }
