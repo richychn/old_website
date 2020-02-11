@@ -5,13 +5,15 @@ export default () => {
     return (
         <>
             <div className="title">
-                <h1 className="title-font">Resume</h1>
+                <h1 className="font">Resume</h1>
                 <div className="header line" />
             </div>
             <div className="center-content">
                 <a target="_blank" href="/RichyChen_Resume.pdf"><i className="paperclip icon" />Download Here</a>
             </div>
-            <PDFReader scale="1" url="RichyChen_Resume.pdf"/>
+            <div className="pdf">
+                <PDFReader scale="1" url="RichyChen_Resume.pdf"/>
+            </div>
         </>
     )
 }

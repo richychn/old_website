@@ -1,9 +1,10 @@
-.title-font {
+.font {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-.font {
+body {
   font-family: 'Crimson Text', serif;
+  font-size: 18px;
 }
 
 h1 h2 h3 {
@@ -25,6 +26,10 @@ h1 h2 h3 {
   justify-content: space-between;
   position: fixed;
   z-index: 9999;
+}
+
+.sidebar:not(i) {
+  font-size: 15px;
 }
 
 .name {
@@ -54,39 +59,41 @@ h1 h2 h3 {
   margin-top: 15px;
 }
 
-.bottom {
+.bottom, .top {
   display: flex;
   flex-direction: column;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
-}
-
-.content-container {
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
 }
 
+.content-container {
+  margin-top: 50px;
+  max-width: 40em;
+}
+
 .content {
-  max-width: 1000px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
   height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
 }
 
-.content.show {
-  padding-top: 100px;
+.content:target {
   opacity: 1;
+  visibility: inherit;
   width: inherit;
   height: inherit;
-  z-index: 2;
+  z-index: 2 !important;
 }
 
 .title {
@@ -120,4 +127,78 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.books.gallery {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  grid-gap: 0 1em;
+  grid-auto-rows: 10px;
+}
+
+.books.gallery > a, .books.gallery > a > img {
+  width: 10em;
+}
+
+.books.gallery > a > img:hover {
+  filter: brightness(80%);
+}
+
+.book.img {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.book.img > img {
+  height: 50vh;
+}
+
+.book.content-container {
+  background-color: rgba(255,255,255,0.7);
+  z-index: 2;
+}
+
+.blogs.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.blogs.gallery > a {
+  text-decoration: none;
+  width: 80%
+}
+
+.blogs.gallery > a:hover {
+  color: rgba(0,0,0,0.5)
+}
+
+.blog-divider {
+  width: 100%;
+  border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+.blog-card {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.blog-card > * {
+  margin: 5px;
+}
+
+.blog.date {
+  text-align: right;
+}
+
+.blog.img {
+  width: 100vw;
+}
+
+.blog.img > img {
+  width: 100%;
 }

@@ -4,7 +4,7 @@ export default () => {
     return (
         <>
             <div className="title">
-                <h1 className="title-font">Hello!</h1>
+                <h1 className="font">Hello!</h1>
                 <div className="header line" />
             </div>
             <div dangerouslySetInnerHTML={{__html: content.text}}></div>
