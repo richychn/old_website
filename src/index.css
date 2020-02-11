@@ -6,10 +6,6 @@
   font-family: 'Crimson Text', serif;
 }
 
-a {
-  color: black;
-}
-
 h1 h2 h3 {
   font-family: 'Julius Sans One', sans-serif;
   margin: 0;
@@ -28,7 +24,7 @@ h1 h2 h3 {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  z-index: 2;
+  z-index: 9999;
 }
 
 .name {
@@ -70,26 +66,58 @@ h1 h2 h3 {
 
 .content-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
 }
 
 .content {
-  padding-top: 100px;
   max-width: 1000px;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -o-transition: 1s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
-  visibility: hidden; 
-  width: 0;
+  height: 0;
 }
 
 .content.show {
+  padding-top: 100px;
   opacity: 1;
-  visibility: visible; 
   width: inherit;
   height: inherit;
+  z-index: 2;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header.line {
+  width: 30%;
+  border-bottom: 2px solid rgba(0,0,0,0.25);;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.icon {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.25);;
+  text-decoration: underline;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

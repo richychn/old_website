@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Bio from '../content/Bio';
-import Projects from '../content/Projects';
-import Resume from '../content/Resume';
-import Reading from '../content/Reading';
-import Blog from '../content/Blog';
+import Bio from './Bio';
+import Projects from './Projects';
+import Resume from './Resume';
+import Reading from './Reading';
+import Blog from './Blog';
 
 class Main extends React.Component {
     constructor(props) {
