@@ -1,8 +1,12 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import Sidebar from './Sidebar';
-import Main from './Main';
+import Bio from './Bio';
+import Projects from './Projects';
+import Resume from './Resume';
+import Books from './Books';
+import Blogs from './Blogs';
 import Book from './Book';
 import Blog from './Blog';
 
@@ -13,14 +17,19 @@ const App = () => {
         )
     } else {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Sidebar />
                 <Switch>
-                    <Route path="/" exact component={Main} />
+                    <Route path="/" exact component={Bio} />
+                    <Route path="/bio" exact component={Bio} />
+                    <Route path="/projects" exact component={Projects} />
+                    <Route path="/resume" exact component={Resume} />
+                    <Route path="/books" exact component={Books} />
+                    <Route path="/blogs" exact component={Blogs} />
                     <Route path="/books/:id" exact component={Book} />
                     <Route path="/blogs/:id" exact component={Blog} />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }

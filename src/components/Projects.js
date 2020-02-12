@@ -3,7 +3,11 @@ import React from 'react';
 class Projects extends React.Component {
     render() {
         return (
-            <div>Coming soon!</div>
+            <div className="container">
+                <div className="content-container">
+                    <div>Coming soon!</div>
+                </div>
+            </div>
         )
     }
 }

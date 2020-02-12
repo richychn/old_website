@@ -2,13 +2,15 @@ import React from 'react';
 
 export default () => {
     return (
-        <>
-            <div className="title">
-                <h1 className="font">Hello!</h1>
-                <div className="header line" />
+        <div className="container">
+            <div className="content-container">
+                <div className="title">
+                    <h1 className="font">Hello!</h1>
+                    <div className="header line" />
+                </div>
+                <div dangerouslySetInnerHTML={{__html: content.text}}></div>
             </div>
-            <div dangerouslySetInnerHTML={{__html: content.text}}></div>
-        </>
+        </div>
     )
 }
 

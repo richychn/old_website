@@ -148,16 +148,23 @@ a:hover {
 .book.img {
   position: fixed;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0;
+  height: 100vh; 
+  width: 50vw;
+  background-size: cover;
+}
+
+.book.overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(255,255,255,0.99), rgba(255,255,255,0.7), rgba(255,255,255,0.1));
 }
 
 .book.img > img {
-  height: 50vh;
+  height: 100vh;
 }
 
 .book.content-container {
-  background-color: rgba(255,255,255,0.7);
   z-index: 2;
 }
 

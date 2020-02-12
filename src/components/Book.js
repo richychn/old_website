@@ -12,12 +12,13 @@ class Book extends React.Component {
     }
 
     renderImage() {
+        const style = {backgroundImage: `url(${this.state.image_url})`}
         if (this.state.image_url === "") {
             return null
         } else {
             return (
-                <div className="book img">
-                    <img src={this.state.image_url} alt="Cover of this book" />
+                <div style={style} className="book img">
+                    <div className="book overlay" />
                 </div>
             )
         }
