@@ -8,6 +8,7 @@ import Blogs from './Blogs';
 
 class Main extends React.Component {
     componentDidMount() {
+        console.log(document.location.hash)
         if (document.location.hash === "" || document.location.hash === "#") {
             document.location.hash = "#bio"
         }
