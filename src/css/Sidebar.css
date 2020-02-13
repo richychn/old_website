@@ -20,7 +20,7 @@
   
   .button {
     color: rgba(0,0,0, 0.1);
-    font-size: 30px;
+    font-size: 40px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -28,10 +28,6 @@
 
   .button.clicked {
       color: rgba(0,0,0,0.25);
-  }
-  
-  .button:hover {
-    cursor: pointer;
   }
   
   .button > i {
@@ -46,16 +42,28 @@
   .label {
       display: flex;
       flex-direction: row;
+      padding: 10px 0;
   }
 
-  .label > div {
-      width: 0;
+  .label > .font {
       visibility: hidden;
       height: 50px;
       line-height: 50px;
       color: rgba(0,0,0,0.5);
+      padding: 0 10px;
+      text-decoration: none;
   }
 
-  .label:hover > div {
+  .label:hover {
+    cursor: pointer;
+  }
+
+  .label:hover > .font {
       visibility: visible;
+      background-color: rgba(255,255,255,0.3);
+  }
+
+  .label:hover > .button {
+    color: rgba(0,0,0,0.25);
+    background-color: rgba(255,255,255,0.3);
   }
