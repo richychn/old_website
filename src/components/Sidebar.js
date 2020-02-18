@@ -31,7 +31,7 @@ class Sidebar extends React.Component {
                     </div>
                     <div className="label" onClick={() => {this.changeDisplay("projects")}}>
                         <a className={`button ${this.state.clicked === "projects" ? "clicked" : ""}`} href="/#projects">
-                            <i className="archive icon" />
+                            <i className="cogs icon" />
                         </a>
                         <a href="/#projects" className="font">Projects</a>
                     </div>
