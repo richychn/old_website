@@ -31,9 +31,9 @@ class Projects extends React.Component {
                         </div>
                         <div className="right">
                             <a href="http://market-modeling.herokuapp.com">
-                                <img style={{width: '20em'}} src="http://market-modeling.herokuapp.com/static/images/square_logo.png" />
+                                <img style={{width: '20em'}} src="https://raw.githubusercontent.com/richychn/market-modeling/master/static/images/square_logo.png" />
                             </a>
-                            <img style={{width: '20em'}} src="http://market-modeling.herokuapp.com/static/images/step_2.gif" />
+                            <img style={{width: '20em'}} src="https://raw.githubusercontent.com/richychn/market-modeling/master/static/images/step_2.gif" />
                         </div>
                     </div>
                 </div>
