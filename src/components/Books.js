@@ -1,6 +1,7 @@
 import React from 'react';
 
 import books from '../content/books';
+import '../css/Books.css';
 
 class Books extends React.Component {
     renderGallery() {
