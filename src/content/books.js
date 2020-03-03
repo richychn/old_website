@@ -29,5 +29,5 @@ export default {
             <p>Here are some interesting takeaways about our two system mind:</p><ul>\
             <li>System 1 handles many things well, but is bad at understanding statistics.</li>\
             </ul>"
-    }
+    },
 }

@@ -1,69 +1,29 @@
 .sidebar {
-    width: 50px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 9999;
-  }
-  
-  .sidebar:not(i) {
-    font-size: 15px;
-  }
-  
-  .name {
-    text-align: center;
-    color: rgba(0,0,0,0.5);
-    margin: 10px 0;
-  }
-  
-  .button {
-    color: rgba(0,0,0, 0.1);
-    font-size: 40px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-  }
+  width: max-content;
+  position: fixed;
+}
 
-  .button.clicked {
-      color: rgba(0,0,0,0.25);
-  }
-  
-  .button > i {
-    margin-top: 15px;
-  }
-  
-  .bottom, .top {
-    display: flex;
-    flex-direction: column;
-  }
+.sidebar > h3 {
+  white-space: nowrap;
+}
 
-  .label {
-      display: flex;
-      flex-direction: row;
-      padding: 10px 0;
-  }
+.links {
+  text-align: center;
+}
 
-  .label > .font {
-      visibility: hidden;
-      height: 50px;
-      line-height: 50px;
-      color: rgba(0,0,0,0.5);
-      padding: 0 10px;
-      text-decoration: none;
-  }
+.links > a {
+  text-decoration: none;
+}
 
-  .label:hover {
-    cursor: pointer;
-  }
+.page-links {
+  margin-top: 20px;
 
-  .label:hover > .font {
-      visibility: visible;
-      background-color: rgba(255,255,255,0.3);
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .label:hover > .button {
-    color: rgba(0,0,0,0.25);
-    background-color: rgba(255,255,255,0.3);
-  }
+.page-links > a {
+  text-decoration: none;
+  margin: 10px 0;
+}

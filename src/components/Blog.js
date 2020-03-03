@@ -29,19 +29,10 @@ class Blog extends React.Component {
         return (
             <>
                 <div className="container">
-                    <div className="content-container">
-                        <div className="title">
-                        <h1 className="font">{this.state.title}</h1>
-                            <div className="header line" />
-                        </div>
-                    </div>
-                </div>  
-                {this.renderImage()}
-                <div className="container">
-                    <div className="content-container">
-                        <p className="blog date">Richy Chen {this.state.date}</p>
-                        <div dangerouslySetInnerHTML={{__html: this.state.text}} />
-                    </div>
+                    <h1>{this.state.title}</h1>
+                    {this.renderImage()}
+                    <p className="blog date">Richy Chen {this.state.date}</p>
+                    <div dangerouslySetInnerHTML={{__html: this.state.text}} />
                 </div>
             </>
         )

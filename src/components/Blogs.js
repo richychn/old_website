@@ -2,6 +2,8 @@ import React from 'react';
 
 import blogs from '../content/blogs';
 
+import '../css/Blogs.css';
+
 class Blogs extends React.Component {
     renderCard(blog) {
         return (
@@ -27,17 +29,12 @@ class Blogs extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="content-container">
-                    <div className="title">
-                        <h1 className="font">Blog</h1>
-                        <div className="header line" />
-                    </div>
-                    <div className="description">
-                        Although I love to think and discuss about philosophy, a product idea, or what the future might look like, I rarely have the patience to write it all down. This is something I want to work on, so I built a simple, minimalist blog site where I will hopefully write more.
-                    </div>
-                    <div className="blogs gallery">
-                        {this.renderGallery()}
-                    </div>
+                <h1>Blog</h1>
+                <div className="description">
+                    Although I love to think and discuss about philosophy, a product idea, or what the future might look like, I rarely have the patience to write it all down. This is something I want to work on, so I built a simple, minimalist blog site where I will hopefully write more.
+                </div>
+                <div className="blogs gallery">
+                    {this.renderGallery()}
                 </div>
             </div>
         )

@@ -1,0 +1,52 @@
+.mobile.sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    top: 0;
+    left: 0;
+    padding: 1vh 5vw;
+    width: 100vw;
+    height: 40px;
+
+    background-image: linear-gradient(
+        to left,
+        rgb(255,255,255),
+        rgb(245,245,245),
+        rgb(255,255,255)
+    );
+    transition-duration: 0.2s;
+    z-index: 3;
+}
+
+.mobile.sidebar.hidden {
+    height: 0 !important;
+    visibility: hidden;
+}
+
+.mobile.sidebar.hidden * {
+    visibility: hidden;
+}
+
+.mobile.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile.profile > * {
+    margin: 10px 0;
+}
+
+.menu {
+    z-index: 3;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    transition-duration: 0.2s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+

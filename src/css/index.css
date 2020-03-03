@@ -3,11 +3,11 @@
 }
 
 body {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', sans-serif;
   font-size: 18px;
 }
 
-h1 h2 h3 {
+h1, h2, h3 {
   font-family: 'Julius Sans One', sans-serif;
   margin: 0;
 }
@@ -17,29 +17,46 @@ h1 h2 h3 {
   cursor: pointer;
 }
 
-.container {
+#root {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
 }
 
-.content-container {
-  margin-top: 50px;
-  max-width: 40em;
-}
-
-.title {
-  width: 100%;
+.page {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  width: 50vw;
+  max-width: 1000px;
+  min-width: 500px;
+  margin-top: 10vh;
 }
 
-.header.line {
-  width: 10vw;
-  border-bottom: 2px solid rgba(0,0,0,0.25);
-  margin-bottom: 60px;
+.page.mobile {
+  display: inline-block;
+  width: 90vw;
+  min-width: 0;
+  margin-top: 50px;
+}
+
+.page.mobile * {
+  max-width: 100vw;
+}
+
+.page.mobile .container {
+  margin-top: 0;
+  margin-left: auto;
+}
+
+.container {
+  margin-top: -36px;
+  margin-left: 150px;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10vh;
 }
 
 a {
@@ -47,63 +64,41 @@ a {
   color: black;
 }
 
-.icon {
-  text-decoration: none !important;
-}
-
 a:hover {
   color: rgba(0,0,0,0.25);
   text-decoration: underline;
-}
-
-.center-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 a > img:hover {
   filter: brightness(90%);
 }
 
-.blogs.gallery {
+.center-contents {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
+  justify-content: center;
 }
 
-.blogs.gallery > a {
-  text-decoration: none;
-  width: 80%
+.gradient.img {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh; 
+  width: 50vw;
+  background-size: cover;
 }
 
-.blogs.gallery > a:hover {
-  color: rgba(0,0,0,0.5)
-}
-
-.blog-divider {
+.gradient.overlay {
+  height: 100%;
   width: 100%;
-  border-top: 1px solid rgba(0,0,0,0.5);
+  background-image: linear-gradient(
+    to right, 
+    rgba(255,255,255,0.99), 
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.5));
 }
 
-.blog-card {
-  margin-top: 10px;
-  width: 100%;
-}
-
-.blog-card > * {
-  margin: 5px;
-}
-
-.blog.date {
-  text-align: right;
-}
-
-.blog.img {
+.page.mobile .gradient.img {
   width: 100vw;
-}
-
-.blog.img > img {
-  width: 100%;
+  left: 0;
 }

@@ -1,41 +1,21 @@
-.project:nth-of-type(odd) {
-    width: 100vw;
-    background-color: #CCC;
+.project {
+    padding: 1em 0;
+    border-style: solid;
+    border-width: 1px;
+    border-image: 
+        linear-gradient(
+        to right, 
+        rgb(0,0,0), 
+        rgb(200,200,200),
+        rgb(255,255,255)
+        ) 1 0 100%;
+    margin-bottom: -1px;
 }
 
-.project:nth-of-type(even) {
-    width: 100vw;
+.project * {
+    margin: 0.5em 0;
 }
 
 .project:last-of-type {
-    padding-bottom: 5em;
-}
-
-.vertical-halves {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 60px;
-}
-
-.vertical-halves > .left, .vertical-halves > .right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.project:nth-of-type(odd) .header.line {
-    margin-bottom: 20px;
-    border-bottom: 2px solid white;
-}
-
-.project:nth-of-type(even) .header.line {
-    margin-bottom: 20px;
-}
-
-.left p {
-    margin: 0.5em 2em;
+    margin-bottom: 5em;
 }
