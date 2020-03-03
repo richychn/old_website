@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 import '../css/MobileSidebar.css';
 
 class MobileSidebar extends React.Component {
@@ -72,7 +72,7 @@ class MobileSidebar extends React.Component {
         } else {
             return (
                 <div className={`mobile sidebar ${this.props.hidden ? "hidden" : ""}`}>
-                    <h3>Richy Chen</h3>
+                    <Link to="/" className="font no-underline">Richy Chen</Link>
                     <i onClick={this.handleClick} className="bars icon" />
                 </div>
             )

@@ -102,3 +102,7 @@ a > img:hover {
   width: 100vw;
   left: 0;
 }
+
+.no-underline {
+  text-decoration: none;
+}
