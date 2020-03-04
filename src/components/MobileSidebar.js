@@ -19,8 +19,8 @@ class MobileSidebar extends React.Component {
     profile() {
         return (
             <div className="mobile profile">
-                <i onClick={this.handleClick} className="bars icon" />
-                <h3>Richy Chen</h3>
+                <i onClick={this.handleClick} className="close icon" />
+                <Link to="/" className="font no-underline">Richy Chen</Link>
                 <div className="links">
                     <a className="button" 
                         href="mailto:richychn@hotmail.com" 
@@ -53,14 +53,14 @@ class MobileSidebar extends React.Component {
 
     menu = () => {
         return (
-            <div className="menu">
+            <div onClick={this.handleClick} className="menu">
                 {this.profile()}
                 <div className="page-links font">
-                    <a onClick={this.handleClick} href="/#hello">Hello</a>
-                    <a onClick={this.handleClick} href="/resume.pdf" target="_blank">Resume</a>
-                    <a onClick={this.handleClick} href="/#projects">Projects</a>
-                    <a onClick={this.handleClick} href="/#books">Reading</a>
-                    <a onClick={this.handleClick} href="/#blogs">Writing</a>
+                    <a href="/#hello">Hello</a>
+                    <a href="/resume.pdf" target="_blank">Resume</a>
+                    <a href="/#projects">Projects</a>
+                    <a href="/#books">Reading</a>
+                    <a href="/#blogs">Writing</a>
                 </div>
             </div>
         )

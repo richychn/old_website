@@ -1,3 +1,11 @@
 .bio .gradient.img {
     background-position-x: -150px;
 }
+
+.mobile .bio p {
+    line-height: 1em;
+}
+
+.mobile .bio p:first-of-type {
+    margin-top: 10px;
+}
