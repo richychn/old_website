@@ -48,6 +48,7 @@ h1, h2, h3 {
 .page.mobile .container {
   margin-top: 0;
   margin-left: auto;
+  width: 100%;
 }
 
 .container {
