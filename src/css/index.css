@@ -107,3 +107,8 @@ a > img:hover {
 .no-underline {
   text-decoration: none;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

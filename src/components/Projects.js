@@ -25,22 +25,23 @@ class Projects extends React.Component {
         return(
             <div className="project">
                 <h3>Photo Ally</h3>
-                <div className="center-contents">
-                    <a href="https://github.com/richychn/photo-ally">
+                <div className="row">
+                    <a style={{marginRight: '1em'}} href="https://github.com/richychn/photo-ally">
                         <img style={{width: '10em'}} src="https://raw.githubusercontent.com/richychn/photo-ally/master/good%20photo/Assets.xcassets/AppIcon.appiconset/1024.png" />
                     </a>
+                    <div dangerouslySetInnerHTML={{__html: projects.photoally}} />
                 </div>
-                <div dangerouslySetInnerHTML={{__html: projects.photoally}} />
             </div>
         )
     }
 
     renderGuitwise() {
+        const imgStyle = {width: '100%', margin: '20px 0', display: 'block'}
         return (
             <div className="project">
                 <h3>GuitWise</h3>
                 <a href="http://guitwise.herokuapp.com">
-                    <img style={{width: '100%', margin: '20px 0'}} src="/guitwise.gif" />
+                    <img style={imgStyle} src="/guitwise.gif" />
                 </a>
                 <div dangerouslySetInnerHTML={{__html: projects.guitwise}} />
             </div>
