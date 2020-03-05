@@ -8,6 +8,7 @@ class Blog extends React.Component {
             title: blogs[this.props.match.params.id].title,
             date: blogs[this.props.match.params.id].date,
             image_url: blogs[this.props.match.params.id].image_url,
+            credit: blogs[this.props.match.params.id].credit,
             image_alt: blogs[this.props.match.params.id].image_alt,
             text: blogs[this.props.match.params.id].text
         }
@@ -20,6 +21,7 @@ class Blog extends React.Component {
             return (
                 <div className="blog img">
                     <img src={this.state.image_url} alt={this.state.image_alt} />
+                    <div className="credits">Image Credit: {this.state.credit}</div>
                 </div>
             )
         }
@@ -31,7 +33,7 @@ class Blog extends React.Component {
                 <div className="container">
                     <h1>{this.state.title}</h1>
                     {this.renderImage()}
-                    <p className="blog date">Richy Chen {this.state.date}</p>
+                    <p className="blog date">{this.state.date}</p>
                     <div dangerouslySetInnerHTML={{__html: this.state.text}} />
                 </div>
             </>

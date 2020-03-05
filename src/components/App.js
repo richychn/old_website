@@ -30,7 +30,9 @@ class App extends React.Component {
     handleScroll = e => {
         var oldYpos = this.state.lastYpos
         this.setState({lastYpos: window.pageYOffset})
-        if (window.pageYOffset > oldYpos) {
+        if (window.pageYOffset === 0) {
+            this.setState({header: true})
+        } else if (window.pageYOffset > oldYpos) {
             this.setState({header: false})
         } else if (window.pageYOffset < oldYpos) {
             this.setState({header: true})

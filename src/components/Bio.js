@@ -11,7 +11,7 @@ export default () => {
             </div>
             <div className="container">
                 <h1 className="font">Hello!</h1>
-                <div dangerouslySetInnerHTML={{__html: content.text}}></div>
+                <div className="text" dangerouslySetInnerHTML={{__html: content.text}}></div>
             </div>
         </div>
     )
