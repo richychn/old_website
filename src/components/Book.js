@@ -21,7 +21,10 @@ class Book extends React.Component {
         const {object} = this.props
 
         return (
-            <a style={{gridRowEnd: `span ${this.state.spans}`}} href={`/#books/${object[0]}`}>
+            <a 
+                target="_blank" 
+                style={{gridRowEnd: `span ${this.state.spans}`}} 
+                href={`${object[1].link_url}`}>
                 <img ref={this.imageRef} 
                     alt={`Cover of ${object[1].title}`} 
                     src={object[1].image_url} />

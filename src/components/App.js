@@ -7,7 +7,6 @@ import Bio from './Bio';
 import Projects from './Projects';
 import Books from './Books';
 import Blogs from './Blogs';
-import Reading from './Reading';
 import Blog from './Blog';
 
 class App extends React.Component {
@@ -74,7 +73,6 @@ class App extends React.Component {
                         <Route path="/projects" exact component={Projects} />
                         <Route path="/books" exact component={Books} />
                         <Route path="/blogs" exact component={Blogs} />
-                        <Route path="/books/:id" exact component={Reading} />
                         <Route path="/blogs/:id" exact component={Blog} />
                     </Switch>
                 </div>
