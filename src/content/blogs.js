@@ -15,4 +15,19 @@ export default {
         <p>I daydream about walking into malls, hotels, shops, restaurants, cafes, and maybe even the DMV one day and be able to use my phone as a personal assistant. I find myself saying to my friends, \"I wish I could order food from my table in the food court\" and wishes for many other products/features that all seem technologically possible and even easy.</p>\
         <p>Which is why I am working with my friends to build a system of apps that will allow business owners (potentially of all the stores I mentioned and more) to better serve their customers. We are starting with cafes and restaurants, where we hope to replicate the service of the sushi restaurant in Hong Kong, and do one better by adding payment, requests, and discounts.</p>"
     },
+    1: {
+        title: "My Favorite Career Advice",
+        date: "March 22, 2020",
+        image_url: "",
+        credit: "",
+        image_alt: "",
+        description: "My list of resources for thinking about your career. This particular post will be continuously updated as I find better resources.",
+        text: "<p>Entering university, I had a plan. Even as that plan changed, I thought it was okay, as long as I had a plan that still made sense. At the end of (almost) four years, my plan had changed so much that I didn't know how it connected with my original plan for after college. So I have been rethinking how I approach career planning and found some helpful advice.</p>\
+        <ul>\
+        <li><a href='https://www.youtube.com/watch?v=xmYekD6-PZ8'>Bill Gurley's Runnin' Down a Dream speech</a></li>\
+        <p>Key takeaways: Find a passion, become the most knowledgable (not intelligent or best at) in that field, develop mentors in that field, and embrace peer relationships.</p>\
+        <li><a href='https://pmarchive.com/guide_to_career_planning_part0.html'>Marc Andreessen's Guide to Career Planning</a></li>\
+        <p>Key takeaways: Ironically for me, Andreessen's first advice is 'don't plan your career.' Rather, recognize opportunities and think strategically about the risk of pursuing the opportunity in the 'portfolio' of all the jobs in your career. Learn hard things in school, so that you are not easily fazed by difficult problems. Become top 25% in two or three skills. Some important skills are communication, management, sales, and finance. Pick an industry where the founders of the industry are still involved. Then, go to the heart of that industry geographically. For a rapidly changing industry like technology, find a young, fast growing company rather than a big, established one.</p>\
+        </ul>"
+    }
 }

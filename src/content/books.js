@@ -29,4 +29,9 @@ export default {
         image_url: "https://images-na.ssl-images-amazon.com/images/I/71SLQKwNLBL.jpg",
         link_url: "https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/B00714PZMQ/ref=sr_1_1?dchild=1&keywords=quiet&qid=1584562393&s=audible&sr=1-1"
     },
+    6: {
+        title: "Trillion Dollar Coach",
+        image_url: "https://images-na.ssl-images-amazon.com/images/I/41vgassjrKL._SX329_BO1,204,203,200_.jpg",
+        link_url: "https://www.amazon.com/Trillion-Dollar-Coach-Leadership-Playbook/dp/0062839268"
+    }
 }
