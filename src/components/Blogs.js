@@ -31,7 +31,7 @@ class Blogs extends React.Component {
             <div className="container">
                 <h1>Blog</h1>
                 <div className="description">
-                    Although I love to think and discuss about philosophy, a product idea, or what the future might look like, I rarely have the patience to write it all down. This is something I want to work on, so I built a simple, minimalist blog site where I will hopefully write more.
+                    Although I love to think and discuss philosophy, a product idea, or what the future might look like, I rarely have the patience to write it all down. This is something I want to work on, so I built a simple, minimalist blog site where I will hopefully write more.
                 </div>
                 <div className="blogs gallery">
                     {this.renderGallery()}

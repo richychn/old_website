@@ -33,5 +33,10 @@ export default {
         title: "Trillion Dollar Coach",
         image_url: "https://images-na.ssl-images-amazon.com/images/I/41vgassjrKL._SX329_BO1,204,203,200_.jpg",
         link_url: "https://www.amazon.com/Trillion-Dollar-Coach-Leadership-Playbook/dp/0062839268"
+    },
+    7: {
+        title: "The Ride of a Lifetime: Lessons Learned from 15 Years as the CEO of the Walt Disney Company",
+        image_url: "https://images-na.ssl-images-amazon.com/images/I/41gr0fllE9L._SX327_BO1,204,203,200_.jpg",
+        link_url: "https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091"
     }
 }
