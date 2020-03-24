@@ -6,5 +6,9 @@ export default {
     photoally: "<p>My first iPhone application was built during the CalTech hackathon in 2019. My friends and I completed a Swift tutorial in the month beforehand to prepare for the hackathon. During the hackathon, we built a simple image recognition machine learning model to recognize photos of notes, whiteboards, or blackboards. This camera app would automatically separate such photos from others. We also implemented a quick way of tagging and searching for photos.</p>\
     <p><a href='https://github.com/richychn/photo-ally'>Check out the repository!</a></p>",
     guitwise: "<p>I first learned to develop web applications at the LeWagon bootcamp in Lisbon, where I was part of batch 86. For my capstone project, I worked with a team to build an online forum for musicians to share their practice and learning. We used Ruby on Rails and hosted it on Heroku.</p>\
-    <p><a href='http://guitwise.herokuapp.com'>Check it out!</a></p>"
+    <p><a href='http://guitwise.herokuapp.com'>Check it out!</a></p>",
+    launch_workstation: "<p>Launch Workstation is a Chrome extension that enables users to quickly open a set of websites. This helps with opening up Chrome and with switching between tasks. </p>\
+    <p>I first messed around with Chrome extensions when I learned web development, but I did not have a good idea for one that hadn't already been done, until this project. Launch Workstation is primarily a tool for myself. I built the first version in less than 24 hours. I plan to only add features if more people start using it or if I need more features.</p>\
+    <p>Please check it out on the Chrome extension store <a href='https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa?hl=en'>here</a></p>\
+    <p>Or if you want to see how I made it, check out my Github <a href='https://github.com/richychn/launch-workstation'>here</a></p>"
 }

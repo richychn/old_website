@@ -4,6 +4,18 @@ import '../css/Projects.css';
 import projects from '../content/projects';
 
 class Projects extends React.Component {
+    renderLaunchWorkstation() {
+        return (
+            <div className="project">
+                <h3>Launch Workstation</h3>
+                <a href="https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa?hl=en">
+                    <img style={{width: '20em', backgroundColor: 'white'}} src="https://raw.githubusercontent.com/richychn/launch-workstation/master/public/icon128.png" />
+                </a>
+                <div dangerouslySetInnerHTML={{__html: projects.laucnh_workstation}} />
+            </div>
+        )
+    }
+
     renderMarketModeling() {
         return (
             <div className="project">
