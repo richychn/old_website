@@ -8,10 +8,12 @@ class Projects extends React.Component {
         return (
             <div className="project">
                 <h3>Launch Workstation</h3>
-                <a href="https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa?hl=en">
-                    <img style={{width: '20em', backgroundColor: 'white'}} src="https://raw.githubusercontent.com/richychn/launch-workstation/master/public/icon128.png" />
-                </a>
-                <div dangerouslySetInnerHTML={{__html: projects.laucnh_workstation}} />
+                <div className="center-contents">
+                    <a href="https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa?hl=en">
+                        <img style={{width: '10em', backgroundColor: 'white'}} src="https://raw.githubusercontent.com/richychn/launch-workstation/master/public/icon128.png" />
+                    </a>
+                </div>
+                <div dangerouslySetInnerHTML={{__html: projects.launch_workstation}} />
             </div>
         )
     }
