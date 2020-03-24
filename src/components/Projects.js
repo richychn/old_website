@@ -65,6 +65,7 @@ class Projects extends React.Component {
             <div className="projects">
                 <div className="container">
                     <h1>Projects</h1>
+                    {this.renderLaunchWorkstation()}
                     {this.renderMarketModeling()}
                     {this.renderPhotoAlly()}
                     {this.renderGuitwise()}
