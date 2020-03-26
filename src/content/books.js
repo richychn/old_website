@@ -38,5 +38,10 @@ export default {
         title: "The Ride of a Lifetime: Lessons Learned from 15 Years as the CEO of the Walt Disney Company",
         image_url: "https://images-na.ssl-images-amazon.com/images/I/41gr0fllE9L._SX327_BO1,204,203,200_.jpg",
         link_url: "https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091"
+    },
+    8: {
+        title: "Range: Why Generalists Triumph in a Specialized World",
+        image_url: "https://images-na.ssl-images-amazon.com/images/I/41-nFxo5yTL._SX333_BO1,204,203,200_.jpg",
+        link_url: "https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484"
     }
 }
