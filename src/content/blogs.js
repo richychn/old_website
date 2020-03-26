@@ -21,15 +21,24 @@ export default {
         image_url: "",
         credit: "",
         image_alt: "",
-        description: "My list of resources for thinking about your career. This particular post will be continuously updated as I find better resources.",
-        text: "<p>Entering university, I had a plan. Even as that plan changed, I thought it was okay, as long as I had a plan that still made sense. At the end of (almost) four years, my plan had changed so much that I didn't know how it connected with my original plan for after college. So I have been rethinking how I approach career planning and found some helpful advice.</p>\
+        description: "My list of resources for thinking about your career and pursuing opportunities. This particular post will be continuously updated as I find better resources.",
+        text: "<p>I am very lucky to be working at Hive for my first full time job. Coming into college, working at a startup was not on my mind. Throughout college, I changed career directions at least three times, despite being absolutely sure I was following a plan I laid out for myself. Now, as I think longer term and reflect on my job search process, I stumbled on interesting resources for thinking about your career and pursuing opportunities, which I wish I had viewed at the beginning of college.</p>\
+        <h3>Career Planning</h3>\
         <ul>\
         <li><a href='https://www.youtube.com/watch?v=xmYekD6-PZ8'>Bill Gurley's Runnin' Down a Dream speech</a></li>\
-        <p>Key takeaways: After finding your passion, become the most knowledgable in it. You may not be the best or smartest at it, but anyone can become one of the most knowledgable in a field. This helps you find and talk to mentors at a high level. This also proves your passion to yourself, because you are doing some of the work to becoming better at your passion.</p>\
+        <p>After finding your passion, become the most knowledgable in it. You may not be the best or smartest at it, but anyone can become one of the most knowledgable in a field. This helps you find and talk to mentors at a high level. This also proves your passion to yourself, because you are doing some of the work to becoming better at your passion.</p>\
         <li><a href='https://pmarchive.com/guide_to_career_planning_part0.html'>Marc Andreessen's Guide to Career Planning</a></li>\
-        <p>Key takeaways: Ironically for me, Andreessen's first advice is 'don't plan your career.' Rather, recognize opportunities and think strategically about the risk of pursuing an opportunity in the 'portfolio' of all the jobs in your career.</p>\
+        <p>Ironically for me, Andreessen's first advice is 'don't plan your career.' Rather, recognize opportunities and think strategically about the risk of pursuing an opportunity in the 'portfolio' of all the jobs in your career.</p>\
         <p>Learn hard things in school, so that you are not easily fazed by difficult problems. Become top 25% in two or three skills. Some important skills are communication, management, sales, and finance. Pick an industry where the founders of the industry are still involved. For a rapidly changing industry like technology, find a young, fast growing company rather than a big, established one.</p>\
         <p>David Epstein's <i>Range</i> supports many of Andreessen's suggestions. Epstein argues that a more diverse experience and knowledge base can do better for ambiguous situations or problems. Specifically, scientists in multiple disciplines are able to solve seemingly impossible problems, and those who have worked abroad tend to have a greater scientific impact.</p>\
+        </ul>\
+        <h3>Pursuing Opportunities</h3>\
+        <ul>\
+        <li><a href='https://medium.com/@julesdwalt/networking-for-introverts-3544f4287fc1'>Jules Walter's Networking for Introverts</a></li>\
+        <p>I entered college not knowing the word networking. Even in college, no one told me specifics. It seemed like all my peers were having wonderful, half hour to hour long conversations with all our alumni, but I could barely come up with enough questions to last 20 minutes. Walter's short piece gives very practical advice for what you can do, if you, like me, aren't the type to wow everyone around you with jokes and fun small talk. My two key takeaways is first, to start by asking for low commitment interactions, such as one very specific question, and second, as you ramp up these interactions, let them know how they have helped you and what you have done as a result of their advice.</p>\
+        <li><a href='https://haseebq.com/tech-careers/'>Haseeb Qureshi's Blogs on Tech Careers</a></li>\
+        <p>Qureshi dropped out of school to become a pro poker player, studied his ass off to become a software developer, and is now an investor in blockchain related companies. He wrote blogs at each step of the way and gives very specific advice on how to break into tech from an unconventional background and how to negotiate job offers.</p>\
+        <p>I found negotiating incredibly difficult, even though I was reading <i>Never Split the Difference</i> and trying to incorporate its suggestions. Qureshi's two part blog on negotiation suggests 10 concrete steps you can take. My kep takeaways are always be positive, mention and internally hype up what you would do if you rejected the offer, and always say you need to discuss the offer with someone else. Read Qureshi's blogs for specific examples.</p>\
         </ul>"
     }
 }
