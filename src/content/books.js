@@ -48,5 +48,10 @@ export default {
         title: "Range: Why Generalists Triumph in a Specialized World",
         image_url: "https://images-na.ssl-images-amazon.com/images/I/41-nFxo5yTL._SX333_BO1,204,203,200_.jpg",
         link_url: "https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484"
+    },
+    10: {
+        title: "The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers",
+        image_url: "https://images-na.ssl-images-amazon.com/images/I/41z%2BsEIIKGL._SX329_BO1,204,203,200_.jpg",
+        link_url: "https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/0804136661"
     }
 }
