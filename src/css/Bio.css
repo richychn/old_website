@@ -10,8 +10,17 @@
     background-position-x: -150px;
 }
 
+.mobile .bio {
+    display: block;
+    padding-top: 20px;
+}
+
+.mobile .bio .gradient.img {
+    background-position-x: -500px;
+}
+
 .mobile .bio p {
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 .mobile .bio p:first-of-type {
