@@ -9,7 +9,7 @@ class Sidebar extends React.Component {
                 <h3>Richy Chen</h3>
                 <div className="links">
                     <a className="button" 
-                        href="mailto:richychn@hotmail.com" 
+                        href="mailto:chenrichy@outlook.com" 
                         rel="noopener noreferrer" 
                         target="_blank">
                         <i className="envelope icon" />

@@ -1,6 +1,11 @@
 .sidebar {
   width: max-content;
   position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10vh;
 }
 
 .sidebar > h3 {

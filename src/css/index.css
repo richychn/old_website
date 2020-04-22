@@ -31,7 +31,6 @@ h1, h2, h3 {
   width: 60vw;
   max-width: 1000px;
   min-width: 800px;
-  margin-top: 10vh;
 }
 
 .page.mobile {
@@ -52,12 +51,11 @@ h1, h2, h3 {
 }
 
 .container {
-  margin-top: -36px;
   margin-left: 150px;
   z-index: 2;
   position: relative;
   width: calc(100% - 150px);
-  padding-bottom: 10vh;
+  padding: 10vh 0;
 }
 
 a {
