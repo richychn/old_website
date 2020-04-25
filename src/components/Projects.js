@@ -9,7 +9,7 @@ class Projects extends React.Component {
             <div className="project">
                 <h3>Launch Workstation</h3>
                 <div className="center-contents">
-                    <a href="https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa?hl=en">
+                    <a href="https://launchworkstation.richychen.com">
                         <img style={{width: '10em', backgroundColor: 'white'}} src="https://raw.githubusercontent.com/richychn/launch-workstation/master/public/icon128.png" />
                     </a>
                 </div>

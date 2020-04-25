@@ -40,5 +40,61 @@ export default {
         <p>Qureshi dropped out of school to become a pro poker player, studied his ass off to become a software developer, and is now an investor in blockchain related companies. He wrote blogs at each step of the way and gives very specific advice on how to break into tech from an unconventional background and how to negotiate job offers.</p>\
         <p>I found negotiating incredibly difficult, even though I was reading <i>Never Split the Difference</i> and trying to incorporate its suggestions. Qureshi's two part blog on negotiation suggests 10 concrete steps you can take. My kep takeaways are always be positive, mention and internally hype up what you would do if you rejected the offer, and always say you need to discuss the offer with someone else. Read Qureshi's blogs for specific examples.</p>\
         </ul>"
+    },
+    2: {
+        title: "Migrating My Software Stack",
+        date: "April 24, 2020",
+        image_url: "https://i2.wp.com/www.onmsft.com/wp-content/uploads/2019/07/microsoft365.jpg?w=992&ssl=1",
+        credit: "https://www.onmsft.com/feature/whats-the-difference-between-office-365-and-microsoft-365",
+        image_alt: "Microsoft 365",
+        description: "With the launch of new features and products in Microsoft 365, I rethink my email accounts, photo backup, cloud usage, and more. This post describes my thoughts and instructions for migrating Google Photos and Keep.",
+        text: "<p>When Microsoft announced they would include Plaid in Excel, I was ecstatic. This would allow me to build my own personal finance app tailored to me. I could never stick with Mint, but I desperately needed a way to monitor my spending and, in the future, my investments. I decided I would get a Microsoft 365 subscription (a family plan to save money). These thoughts of preparing for the future caused me to start thinking about how I would manage my files, photos, and email accounts after I leave school.</p>\
+        <p>I'm becoming a bit of a Marie Kondo about the technology I use, so I did some research, came up with a simplified 'Software Stack,' and started migrating everything to my new stack. This blog post will detail some of my reasons for using this stack and how I migrated everything.</p>\
+        <p>Before migration, I used:\
+        <ul>\
+        <li>Gmail and Google Drive for school</li>\
+        <li>Hotmail for personal</li>\
+        <li>Two free OneDrive accounts, one each for high school and college</li>\
+        <li>A Google account for Google Keep, Photos, and Maps</li>\
+        <li>A Google account for Chrome Developer</li>\
+        <li>A Google account for my Android</li>\
+        <li>Two Apple accounts for different devices</li>\
+        </ul></p>\
+        <p>After migration, I use or plan to use:\
+        <ul>\
+        <li>One Outlook email for email, Microsoft 365 (OneDrive, Office suite, and Outlook app), Google (Keep, Photos, Maps, Chrome, Drive)</li>\
+        <li>One Apple account for Apple products</li>\
+        <li>One work email through whichever service my work provides</li>\
+        </ul></p>\
+        <p>Some of my keys decisions during this migration process included choosing which email accounts to use and choosing an app to backup my photos. I wanted to use as few email accounts as possilbe, since I found it impossible to keep track of the numerous accounts I had before. Also, I did not want to use any of my old accounts, so that I could start anew and make sure I am not on any unwanted email lists. I decided not to use Gmail, the most popular among my friends, because I would not be able to use Microsoft 365 with that email. However, Google allows users to use any email for registering a Google account. Therefore, Outlook was the most sensible choice.</p>\
+        <p>As for photos, I have been using Google Photos, which backs up my photos without me having to do anything. However, since I have been using OneDrive more, I considered using OneDrive to back up my photos. Doing some research into both products, I found that Google Photos beat out OneDrive in the number of features and the ability to store unlimited photos at a lower than original quality. Most important to me was Google Photos' ability to internally label faces and photos and let users search for specific people, locations, or things inside the photo. People who care enough about the quality of photos to pay for storage may want to reconsider.</p>\
+        <p>After settling on Google Photos, I now had to move all my photos from one Google account to another (Remember my Outlook email can be used as a Google account).\
+        <ol>\
+        <li>Go to <a target='_blank' href='photos.google.com'>photos.google.com</a> and sign in using your old Google account.</li>\
+        <li>Click the menu button and go to <a target='_blank' href='https://photos.google.com/u/0/managelibrary'>Manage Library</a></li>\
+        <li>Add your new Google account as a partner account, making sure to share all photos.</li>\
+        <li>Sign in to your new Google account.</li>\
+        <li>Accept the invite, making sure to save all photos to your own photos</li>\
+        <li>Wait, perhaps overnight. It will take some time for all the photos to be transferred.</li>\
+        </ol></p>\
+        <p>Next, I have to do a similar thing for Google Keep.\
+        <ol>\
+        <li>Go to <a target='_blank' href='keep.google.com'>keep.google.com</a> and sign in to your old account.</li>\
+        <li>For each note, add your new account as a collaborator.</li>\
+        <li>Sign in to your new account</li>\
+        <li>Duplicate each of the notes that have been shared to this account, and delete the shared versions.</li>\
+        </ol></p>\
+        <p>This will not apply to a majority of people, but I also had to migrate Chrome Developer account's Chrome extension and my Google Domain account to my new Google account. For the Chrome extension, I had to pay another developer fee for my new account and then fill out a form <a target='_blank' href='https://support.google.com/chrome_webstore/contact/dev_account_transfer'>here</a>. Unfortunately, this migration takes a while, because a Google employee must look at it.</p>\
+        <p>For the Google Domain:\
+        <ol>\
+        <li>Go to <a target='_blank' href='https://domains.google.com/m/registrar/transfer'>Transfer</a> in the Google Domains page.</li>\
+        <li>Type in the domain(s) you want to transfer</li>\
+        <li>Send the authorization code to the old account</li>\
+        <li>Go to your old account's email and copy the authorization code</li>\
+        <li>Click 'Continue to other account' and sign in with your new account</li>\
+        <li>Select 'I already have an authorization code' and paste the authorization code</li>\
+        </ol></p>\
+        <p>I also considered migrating my Maps saved locations, but I could not find a simple way for doing so. Since my saved locations weren't very organized, I took this as an opportunity to start saving locations in a more organized manner with my new account. I chose not to migrate any of my old OneDrive files, because I would not be using them regularly, and I preferred to leave them as drives I can revisit to see what I did in high school and college.</p>\
+        <p>That concludes my process of thinking of which software to use, how to simplify my technology life, and keep all my old photos, <a target='_blank' href='https://launchworkstation.richychen.com'>my Chrome extension</a>, and my Keep notes. I hope this helps anyone looking to make the same simplifying journey I did.</p>"
     }
 }

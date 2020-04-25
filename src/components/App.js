@@ -15,18 +15,18 @@ class App extends React.Component {
         this.state = {
             mobile: false,
             lastYpos: null,
-            header: true
+            header: true,
         }
     }
 
     componentDidMount() {
         this.windowWidth()
-        window.addEventListener('resize', this.windowWidth)
+        window.addEventListener('resize', this.windowWidth);
         window.addEventListener('scroll', this.handleScroll , true);
-        this.setState({lastYpos: window.pageYOffset})
+        this.setState({lastYpos: window.pageYOffset});
     }
 
-    handleScroll = e => {
+    handleScroll = _ => {
         var oldYpos = this.state.lastYpos
         this.setState({lastYpos: window.pageYOffset})
         if (window.pageYOffset === 0) {

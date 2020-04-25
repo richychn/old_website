@@ -1,11 +1,16 @@
 .sidebar {
   width: max-content;
   position: fixed;
-  height: 100%;
+  top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 10vh;
+}
+
+.sidebar.bio {
+  top: 0;
+  height: 100%;
 }
 
 .sidebar > h3 {

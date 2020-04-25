@@ -5,7 +5,7 @@ import '../css/Sidebar.css';
 class Sidebar extends React.Component {
     render() {
         return (
-            <div className="sidebar">
+            <div className={`sidebar ${this.props.bio}`}>
                 <h3>Richy Chen</h3>
                 <div className="links">
                     <a className="button" 
