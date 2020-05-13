@@ -74,6 +74,10 @@ class App extends React.Component {
                         <Route path="/books" exact component={Books} />
                         <Route path="/blogs" exact component={Blogs} />
                         <Route path="/blogs/:id" exact component={Blog} />
+                        <Route path='/launch-workstation' component={() => { 
+                            window.location.href = 'https://chrome.google.com/webstore/detail/launch-workstation/bonigddakfdagmgiodddmconddoebaoa'; 
+                            return null;
+                        }}/>
                     </Switch>
                 </div>
             </HashRouter>
