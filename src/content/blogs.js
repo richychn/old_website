@@ -95,6 +95,17 @@ export default {
         <li>Select 'I already have an authorization code' and paste the authorization code</li>\
         </ol></p>\
         <p>I also considered migrating my Maps saved locations, but I could not find a simple way for doing so. Since my saved locations weren't very organized, I took this as an opportunity to start saving locations in a more organized manner with my new account. I chose not to migrate any of my old OneDrive files, because I would not be using them regularly, and I preferred to leave them as drives I can revisit to see what I did in high school and college.</p>\
-        <p>That concludes my process of thinking of which software to use, how to simplify my technology life, and keep all my old photos, <a target='_blank' href='https://launchworkstation.richychen.com'>my Chrome extension</a>, and my Keep notes. I hope this helps anyone looking to make the same simplifying journey I did.</p>"
+        <p>That concludes my process of thinking of which software to use, how to simplify my technology life, and keep all my old photos, <a target='_blank' href='/launch-workstation'>my Chrome extension</a>, and my Keep notes. I hope this helps anyone looking to make the same simplifying journey I did.</p>"
+    },
+    3: {
+        title: "Uses of Infinity: Avicenna and Descartes",
+        date: "May 17, 2020",
+        image_url: "",
+        credit: "",
+        image_alt: "",
+        description: "As I graduate, I am sharing a piece of college writing and philosophical thinking I am most proud of.",
+        text: "<p>Yesterday was meant to be the day I walked across a stage, received my diploma, and became a university graduate. Instead, I was at home, making food with my sister for my grandmother's birthday. For me, it was a much better alternative, if not for COVID-19 being the reason I am at home. However, it does mean I don't feel anything momentous. To personally celebrate my graduation, I am sharing a piece of writing and philosophical thinking I did during college. Although I didn't major in philosophy, it was a fascinating subject I only got to explore in college.</p>\
+        <p>In this essay, I explore how Avicenna or Ibn Sina and Descartes uses infinity in their respective arguments for an almighty figure or a God. Using Levey's essay on the Paradox of the PSR, I then construct a counterargument to both Avicenna and Descartes. Please feel free to contact me to talk about this. I love talking about philosophical arguments for and against God.</p>\
+        <p>Please click <a href='/Infinity.pdf' target='_blank'>here</a> to read my essay. "
     }
 }
