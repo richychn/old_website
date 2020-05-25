@@ -105,7 +105,7 @@ export default {
         image_alt: "",
         description: "As I graduate, I am sharing a piece of college writing and philosophical thinking I am most proud of.",
         text: "<p>Yesterday was meant to be the day I walked across a stage, received my diploma, and became a university graduate. Instead, I was at home, making food with my sister for my grandmother's birthday. For me, it was a much better alternative, if not for COVID-19 being the reason I am at home. However, it does mean I don't feel anything momentous. To personally celebrate my graduation, I am sharing a piece of writing and philosophical thinking I did during college. Although I didn't major in philosophy, it was a fascinating subject I only got to explore in college.</p>\
-        <p>In this essay, I explore how Avicenna or Ibn Sina and Descartes uses infinity in their respective arguments for an almighty figure or a God. Using Levey's essay on the Paradox of the PSR, I then construct a counterargument to both Avicenna and Descartes. Please feel free to contact me to talk about this. I love talking about philosophical arguments for and against God.</p>\
+        <p>In this essay, I explore how Avicenna or Ibn Sina and Descartes use infinity in their respective arguments for an almighty figure or a God. Using Levey's essay on the Paradox of the PSR, I then construct a counterargument to both Avicenna and Descartes. Please feel free to contact me to talk about this. I love talking about philosophical arguments for and against God.</p>\
         <p>Please click <a href='/Infinity.pdf' target='_blank'>here</a> to read my essay. "
     }
 }

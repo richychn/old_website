@@ -34,11 +34,11 @@ class Sidebar extends React.Component {
                     </a>
                 </div>
                 <div className="page-links font">
-                    <a href="/#hello">Hello</a>
+                    <a href="/hello">Hello</a>
                     <a href="/resume.pdf" target="_blank">Resume</a>
-                    <a href="/#projects">Projects</a>
-                    <a href="/#books">Reading</a>
-                    <a href="/#blogs">Writing</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/books">Reading</a>
+                    <a href="/blogs">Writing</a>
                 </div>
             </div>
         )
