@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import MobileSidebar from './MobileSidebar';
 import Sidebar from './Sidebar';
@@ -64,7 +64,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <div className={`page ${this.state.mobile ? "mobile" : ""}`}>
                     {this.sidebar()}
                     <Switch>
@@ -80,7 +80,7 @@ class App extends React.Component {
                         }}/>
                     </Switch>
                 </div>
-            </Router>
+            </HashRouter>
         )
     }
 }

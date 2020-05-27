@@ -95,7 +95,7 @@ export default {
         <li>Select 'I already have an authorization code' and paste the authorization code</li>\
         </ol></p>\
         <p>I also considered migrating my Maps saved locations, but I could not find a simple way for doing so. Since my saved locations weren't very organized, I took this as an opportunity to start saving locations in a more organized manner with my new account. I chose not to migrate any of my old OneDrive files, because I would not be using them regularly, and I preferred to leave them as drives I can revisit to see what I did in high school and college.</p>\
-        <p>That concludes my process of thinking of which software to use, how to simplify my technology life, and keep all my old photos, <a target='_blank' href='/launch-workstation'>my Chrome extension</a>, and my Keep notes. I hope this helps anyone looking to make the same simplifying journey I did.</p>"
+        <p>That concludes my process of thinking of which software to use, how to simplify my technology life, and keep all my old photos, <a target='_blank' href='/#/launch-workstation'>my Chrome extension</a>, and my Keep notes. I hope this helps anyone looking to make the same simplifying journey I did.</p>"
     },
     3: {
         title: "Uses of Infinity: Avicenna and Descartes",

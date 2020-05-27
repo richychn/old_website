@@ -2,13 +2,13 @@ export default {
     market_modeling: "<p>A project I did with four friends in class, Market Modeling is a web app showing the results of a research project on machine learning and markets data. We tested variations of two models, Echo State Networks and Long Short Term Memory, to try to predict stock and other markets data. Google Colab was a very helpful tool for costless testing of our models on GPU machines.</p>\
     <p>Unfortunately, we began this project with very little domain knowledge and picked variables that theoretically strongly correlated with each other. As a result, our strategy of using multiple variables to predict multiple variables was not effective with our data. However, the process of making and testing two models allowed us to learn a lot about the models. Echo State Networks, being a fairly new development, was especially interesting.</p>\
     <p>We also used this opportunity to practice designing a website and creating the front end, something I do not work on often. We learned AJAX to make requests without disrupting the user flow, and used Chartist.js to create beautiful graphs in HTML. Our website was made with Python Flask and hosted on Heroku.</p>\
-    <p><a href='http://market-modeling.herokuapp.com'>Check it out!</a></p>",
+    <p><a target='_blank' href='http://market-modeling.herokuapp.com'>Check it out!</a></p>",
     photoally: "<p>My first iPhone application was built during the CalTech hackathon in 2019. My friends and I completed a Swift tutorial in the month beforehand to prepare for the hackathon. During the hackathon, we built a simple image recognition machine learning model to recognize photos of notes, whiteboards, or blackboards. This camera app would automatically separate such photos from others. We also implemented a quick way of tagging and searching for photos.</p>\
-    <p><a href='https://github.com/richychn/photo-ally'>Check out the repository!</a></p>",
+    <p><a target='_blank' href='https://github.com/richychn/photo-ally'>Check out the repository!</a></p>",
     guitwise: "<p>I first learned to develop web applications at the LeWagon bootcamp in Lisbon, where I was part of batch 86. For my capstone project, I worked with a team to build an online forum for musicians to share their practice and learning. We used Ruby on Rails and hosted it on Heroku.</p>\
-    <p><a href='http://guitwise.herokuapp.com'>Check it out!</a></p>",
+    <p><a target='_blank' href='http://guitwise.herokuapp.com'>Check it out!</a></p>",
     launch_workstation: "<p>Launch Workstation is a Chrome extension that enables users to quickly open a set of websites. This helps with opening up Chrome and with switching between tasks. </p>\
     <p>I first messed around with Chrome extensions when I learned web development, but I did not have a good idea for one that hadn't already been done, until this project. Launch Workstation is primarily a tool for myself. I built the first version in less than 24 hours. I plan to only add features if more people start using it or if I need more features.</p>\
-    <p>Please check it out on the Chrome extension store <a href='https://www.richychen.com/#/launch-workstation'>here</a></p>\
-    <p>Or if you want to see how I made it, check out my Github <a href='https://github.com/richychn/launch-workstation'>here</a></p>"
+    <p>Please check it out on the Chrome extension store <a target='_blank' href='https://www.richychen.com/#/launch-workstation'>here</a></p>\
+    <p>Or if you want to see how I made it, check out my Github <a target='_blank' href='https://github.com/richychn/launch-workstation'>here</a></p>"
 }
